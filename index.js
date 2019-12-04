@@ -60,3 +60,8 @@ let car = ['Ford','Mustang',2020,'Black'];
 // }
 
 
+// Task : Print each element with its index:
+// for (let i=0; i <= car.length -1; i++) {
+//   console.log(i + ": " + car[i]);
+// }
+//////// 
