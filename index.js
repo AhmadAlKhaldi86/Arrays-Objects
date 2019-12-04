@@ -33,4 +33,4 @@ let car = {
 
 
 
-///////////// Arrays Simple Loops ///////////////
+///////////// Arrays Simple Loops ////////////////
