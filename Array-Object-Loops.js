@@ -1,10 +1,10 @@
 //////////// Object simple loops /////////////
-// let car = {
-//   make: 'Ford',
-//   model: 'Mustang',
-//   year: 2020,
-//   color: 'Black'
-// }
+let car = {
+  make: 'Ford',
+  model: 'Mustang',
+  year: 2020,
+  color: 'Black'
+}
 // car.make
 // console.log(Object.keys(car));
 // console.log(Object.values(car));
@@ -34,7 +34,7 @@
 
 
 ///////////// Arrays Simple Loops ////////////////
-let car = ['Ford','Mustang',2020,'Black'];
+// let car = ['Ford','Mustang',2020,'Black'];
 // car[0];
 // car[1];
 // car[2];
