@@ -1,3 +1,8 @@
+# Loops of Objects and Arrays loops
+
+#### This repo is to practice Loops to access and update objects and Arrays
+
+#### Below is just High level Intro 
 1. What are arrays in JavaScript and why are they useful?
      Array is a data structure in javascript to store multiple elements. 
       They are usful because you can store many values and access them using once variable. 
@@ -21,4 +26,5 @@
     method is a function within a class. 
 
 
+### Below is the challenge i have followed in this repo. 
 https://github.com/LearnTeachCode/pair-partners/issues/42
