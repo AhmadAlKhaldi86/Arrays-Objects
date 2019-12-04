@@ -35,3 +35,28 @@
 
 ///////////// Arrays Simple Loops ////////////////
 let car = ['Ford','Mustang',2020,'Black'];
+// car[0];
+// car[1];
+// car[2];
+// car[3];
+
+
+
+// Instead 
+// run a for of loop to get all the values
+// for (let item of car) {
+//   console.log(item);
+// }
+
+//  run a forEach loop to get all the values
+// car.forEach(item => {
+//   console.log(item);
+// })
+
+
+// run a normal loop to get all the values
+// for (let i=0; i <= car.length -1; i++) {
+//     console.log(car[i]);
+// }
+
+
