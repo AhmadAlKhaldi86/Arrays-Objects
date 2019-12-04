@@ -19,3 +19,6 @@
 
 6. What is a method?
     method is a function within a class. 
+
+
+https://github.com/LearnTeachCode/pair-partners/issues/42
