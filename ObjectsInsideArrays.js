@@ -26,13 +26,13 @@ let cars = [
     speed() {
       console.log("the car is slow");}
   }
-]
+];
 
 // Access the first object inside the array 
-// console.log(cars[0]);
+console.log(cars[0]);
 
 // Varable pointing to second car 
-// console.log(cars[1]);
+console.log(cars[1]);
 
 // Print the make of the first item
 // console.log(cars[0]['make']);
