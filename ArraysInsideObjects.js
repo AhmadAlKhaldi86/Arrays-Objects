@@ -1,44 +1,39 @@
 // Arrays inside objects:
-let car = {
-  make: 'Ford',
-  model: 'Mustang',
-  year: 2020,
-  colors: ['Black','Blue','Gray','Yellow']
-}
-// Access Car second speed 
+// let car = {
+//   make: 'Ford',
+//   model: 'Mustang',
+//   year: 2020,
+//   colors: ['Black','Blue','Gray','Yellow']
+// }
+// car.colors[0]
+
+// //Access Car colors , 2nd color 
 // car.colors[1];
 
-// firstColor
-// let firstColor = car.colors[0];
-// console.log(firstColor);
+// //Add New color in colors at end of array using push
+// //This will return the number of indexes. 
+// car.colors.push("green");
 
-// Add new color to end of list
-// car.colors.push("Green"); // This will return the number of indexes. 
+// //Remove from end
+// Notice this will return the removed color 
+// car.colors.pop(); 
 
-// Remove from end
-// car.colors.pop(); // Notice this will return the removed color 
-
-// Change the value of the last item to Silver 
+// //Change the value of the last item to Silver 
 // car.colors[car.colors.length -1] = "Silver"
 // Another Way
 // car.colors.splice(car.colors.length -1, 1, "Silver");
 
-// Add new color in between
+// //Add new color in between 
 // car.colors.splice(car.colors.length -1, 0, "Green");
 // car
 
-// Loops and print values
-// car.colors.forEach(item => {
-//   console.log(item);
-// })
+// // Loops and print values of array inside object car 
+// let carColors = car.colors 
+// carColors
+// carColors.forEach(item => {console.log(item)});
 
-// Loop and print values
-// for (let item of car.colors) {
-//   console.log(item);
-// }
-
-
-// Loops and print indexes: values
-// for (let i=0; i <= car.colors.length - 1; i++) {
-//   console.log(i + ":" + car.colors[i]);
-// }
+// // Loops and print indexes: values
+// let carColors = car.colors 
+// for (let i=0; i < carColors.length; i++) { 
+//   console.log(i + ": " + carColors[i]);
+//    }
